@@ -1,7 +1,9 @@
+using System;
 using System.Net;
 using System.Text.Json;
 using API.Errors;
 
+namespace API.Middleware;
 
 public class ExceptionMiddleware(IHostEnvironment env, RequestDelegate next)
 {

@@ -1,6 +1,8 @@
+using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace API.DTOs;
-using System.ComponentModel.DataAnnotations;
+
 public class CreateProductDto
 {
     [Required] public string Name { get; set; } = string.Empty;

@@ -1,3 +1,4 @@
+using System;
 using Core.Entities;
 
 namespace Core.Specifications;
